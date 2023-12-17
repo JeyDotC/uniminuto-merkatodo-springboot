@@ -298,6 +298,18 @@ export function h2(attrs) { return el('h2', attrs); }
  * @returns {SetChildren<HTMLHeadElement>}
  */
 export function h3(attrs) { return el('h3', attrs); }
+
+/**
+ * @param {Object} attrs
+ * @returns {SetChildren<HTMLHeadElement>}
+ */
+export function h4(attrs) { return el('h4', attrs); }
+
+/**
+ * @param {Object} attrs
+ * @returns {SetChildren<HTMLHeadElement>}
+ */
+export function h5(attrs) { return el('h5', attrs); }
 /**
  * @param {Object} attrs
  * @returns {SetChildren<HTMLHeadElement>}
