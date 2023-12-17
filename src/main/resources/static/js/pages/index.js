@@ -45,4 +45,5 @@ const products = [
                                      }
                  ];
 
+console.log(ProductsList({ products }));
 productsList.replaceChildren(ProductsList({ products }));

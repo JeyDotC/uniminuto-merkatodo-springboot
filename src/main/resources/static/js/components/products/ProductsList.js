@@ -9,9 +9,8 @@ export function ProductsList({ products }) {
        return accumulate;
      },[]);
 
-
-    return div({},
-        ...productRows.map((productsRow) => div({className: "d-md-flex flex-md-equal w-100 my-md-3 ps-md-3"},
+    return div()(
+        ...productRows.map((productsRow) => div({className: "d-md-flex flex-md-equal w-100 my-md-3 ps-md-3"})(
             ...productsRow.map((product) => ProductCard(product))
         ))
     );
