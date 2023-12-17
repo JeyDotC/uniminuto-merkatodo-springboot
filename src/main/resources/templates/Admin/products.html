@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+
+<div id="products" th:fragment="products">
+    <div class="text-end">
+        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#products-editor" aria-controls="products-editor">
+            Crear Producto
+        </button>
+    </div>
+    <table id="products-list" class="table">
+        <thead>
+        <tr>
+            <th class="text-end">Id</th>
+            <th>Imagen</th>
+            <th>Nombre</th>
+            <th>Marca</th>
+            <th class="text-end">Precio</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div class="offcanvas offcanvas-end" id="products-editor">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="products-editor-label">Producto</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <form>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
