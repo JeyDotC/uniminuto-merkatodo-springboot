@@ -287,6 +287,21 @@ export function frameset(attrs) { return el('frameset', attrs); }
  * @param {Object} attrs
  * @returns {SetChildren<HTMLHeadElement>}
  */
+export function h1(attrs) { return el('h1', attrs); }
+/**
+ * @param {Object} attrs
+ * @returns {SetChildren<HTMLHeadElement>}
+ */
+export function h2(attrs) { return el('h2', attrs); }
+/**
+ * @param {Object} attrs
+ * @returns {SetChildren<HTMLHeadElement>}
+ */
+export function h3(attrs) { return el('h3', attrs); }
+/**
+ * @param {Object} attrs
+ * @returns {SetChildren<HTMLHeadElement>}
+ */
 export function head(attrs) { return el('head', attrs); }
 /**
  * @param {Object} attrs
